@@ -24,38 +24,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CA84BA902E274FE10084F5D7 /* MindMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA84BA9D2E274FE20084F5D7 /* MindMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA84BAA72E274FE20084F5D7 /* MindMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA84BA902E274FE10084F5D7 /* SoulSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoulSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA84BA9D2E274FE20084F5D7 /* SoulSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoulSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA84BAA72E274FE20084F5D7 /* SoulSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoulSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CA84BAEA2E28B5CE0084F5D7 /* Exceptions for "MindMate" folder in "MindMate" target */ = {
+		CA84BAEA2E28B5CE0084F5D7 /* Exceptions for "SoulSync" folder in "SoulSync" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				.gitignore,
 				Info.plist,
 			);
-			target = CA84BA8F2E274FE10084F5D7 /* MindMate */;
+			target = CA84BA8F2E274FE10084F5D7 /* SoulSync */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		CA84BB432E2EF4660084F5D7 /* Exceptions for "SoulSync" folder in "Compile Sources" phase from "SoulSync" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = CA84BA8C2E274FE10084F5D7 /* Sources */;
+			membershipExceptions = (
+				.gitignore,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CA84BA922E274FE10084F5D7 /* MindMate */ = {
+		CA84BA922E274FE10084F5D7 /* SoulSync */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				CA84BAEA2E28B5CE0084F5D7 /* Exceptions for "MindMate" folder in "MindMate" target */,
+				CA84BAEA2E28B5CE0084F5D7 /* Exceptions for "SoulSync" folder in "SoulSync" target */,
+				CA84BB432E2EF4660084F5D7 /* Exceptions for "SoulSync" folder in "Compile Sources" phase from "SoulSync" target */,
 			);
-			path = MindMate;
+			path = SoulSync;
 			sourceTree = "<group>";
 		};
-		CA84BAA02E274FE20084F5D7 /* MindMateTests */ = {
+		CA84BAA02E274FE20084F5D7 /* SoulSyncTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MindMateTests;
+			path = SoulSyncTests;
 			sourceTree = "<group>";
 		};
-		CA84BAAA2E274FE20084F5D7 /* MindMateUITests */ = {
+		CA84BAAA2E274FE20084F5D7 /* SoulSyncUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MindMateUITests;
+			path = SoulSyncUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,9 +100,9 @@
 		CA84BA872E274FE10084F5D7 = {
 			isa = PBXGroup;
 			children = (
-				CA84BA922E274FE10084F5D7 /* MindMate */,
-				CA84BAA02E274FE20084F5D7 /* MindMateTests */,
-				CA84BAAA2E274FE20084F5D7 /* MindMateUITests */,
+				CA84BA922E274FE10084F5D7 /* SoulSync */,
+				CA84BAA02E274FE20084F5D7 /* SoulSyncTests */,
+				CA84BAAA2E274FE20084F5D7 /* SoulSyncUITests */,
 				CA84BA912E274FE10084F5D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,9 +110,9 @@
 		CA84BA912E274FE10084F5D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA84BA902E274FE10084F5D7 /* MindMate.app */,
-				CA84BA9D2E274FE20084F5D7 /* MindMateTests.xctest */,
-				CA84BAA72E274FE20084F5D7 /* MindMateUITests.xctest */,
+				CA84BA902E274FE10084F5D7 /* SoulSync.app */,
+				CA84BA9D2E274FE20084F5D7 /* SoulSyncTests.xctest */,
+				CA84BAA72E274FE20084F5D7 /* SoulSyncUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA84BA8F2E274FE10084F5D7 /* MindMate */ = {
+		CA84BA8F2E274FE10084F5D7 /* SoulSync */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA84BAB12E274FE20084F5D7 /* Build configuration list for PBXNativeTarget "MindMate" */;
+			buildConfigurationList = CA84BAB12E274FE20084F5D7 /* Build configuration list for PBXNativeTarget "SoulSync" */;
 			buildPhases = (
 				CA84BA8C2E274FE10084F5D7 /* Sources */,
 				CA84BA8D2E274FE10084F5D7 /* Frameworks */,
@@ -121,18 +133,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CA84BA922E274FE10084F5D7 /* MindMate */,
+				CA84BA922E274FE10084F5D7 /* SoulSync */,
 			);
-			name = MindMate;
+			name = SoulSync;
 			packageProductDependencies = (
 			);
 			productName = MindMate;
-			productReference = CA84BA902E274FE10084F5D7 /* MindMate.app */;
+			productReference = CA84BA902E274FE10084F5D7 /* SoulSync.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CA84BA9C2E274FE20084F5D7 /* MindMateTests */ = {
+		CA84BA9C2E274FE20084F5D7 /* SoulSyncTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA84BAB42E274FE20084F5D7 /* Build configuration list for PBXNativeTarget "MindMateTests" */;
+			buildConfigurationList = CA84BAB42E274FE20084F5D7 /* Build configuration list for PBXNativeTarget "SoulSyncTests" */;
 			buildPhases = (
 				CA84BA992E274FE20084F5D7 /* Sources */,
 				CA84BA9A2E274FE20084F5D7 /* Frameworks */,
@@ -144,18 +156,18 @@
 				CA84BA9F2E274FE20084F5D7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				CA84BAA02E274FE20084F5D7 /* MindMateTests */,
+				CA84BAA02E274FE20084F5D7 /* SoulSyncTests */,
 			);
-			name = MindMateTests;
+			name = SoulSyncTests;
 			packageProductDependencies = (
 			);
 			productName = MindMateTests;
-			productReference = CA84BA9D2E274FE20084F5D7 /* MindMateTests.xctest */;
+			productReference = CA84BA9D2E274FE20084F5D7 /* SoulSyncTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CA84BAA62E274FE20084F5D7 /* MindMateUITests */ = {
+		CA84BAA62E274FE20084F5D7 /* SoulSyncUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA84BAB72E274FE20084F5D7 /* Build configuration list for PBXNativeTarget "MindMateUITests" */;
+			buildConfigurationList = CA84BAB72E274FE20084F5D7 /* Build configuration list for PBXNativeTarget "SoulSyncUITests" */;
 			buildPhases = (
 				CA84BAA32E274FE20084F5D7 /* Sources */,
 				CA84BAA42E274FE20084F5D7 /* Frameworks */,
@@ -167,13 +179,13 @@
 				CA84BAA92E274FE20084F5D7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				CA84BAAA2E274FE20084F5D7 /* MindMateUITests */,
+				CA84BAAA2E274FE20084F5D7 /* SoulSyncUITests */,
 			);
-			name = MindMateUITests;
+			name = SoulSyncUITests;
 			packageProductDependencies = (
 			);
 			productName = MindMateUITests;
-			productReference = CA84BAA72E274FE20084F5D7 /* MindMateUITests.xctest */;
+			productReference = CA84BAA72E274FE20084F5D7 /* SoulSyncUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CA84BA8B2E274FE10084F5D7 /* Build configuration list for PBXProject "MindMate" */;
+			buildConfigurationList = CA84BA8B2E274FE10084F5D7 /* Build configuration list for PBXProject "SoulSync" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA84BA8F2E274FE10084F5D7 /* MindMate */,
-				CA84BA9C2E274FE20084F5D7 /* MindMateTests */,
-				CA84BAA62E274FE20084F5D7 /* MindMateUITests */,
+				CA84BA8F2E274FE10084F5D7 /* SoulSync */,
+				CA84BA9C2E274FE20084F5D7 /* SoulSyncTests */,
+				CA84BAA62E274FE20084F5D7 /* SoulSyncUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +283,12 @@
 /* Begin PBXTargetDependency section */
 		CA84BA9F2E274FE20084F5D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CA84BA8F2E274FE10084F5D7 /* MindMate */;
+			target = CA84BA8F2E274FE10084F5D7 /* SoulSync */;
 			targetProxy = CA84BA9E2E274FE20084F5D7 /* PBXContainerItemProxy */;
 		};
 		CA84BAA92E274FE20084F5D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CA84BA8F2E274FE10084F5D7 /* MindMate */;
+			target = CA84BA8F2E274FE10084F5D7 /* SoulSync */;
 			targetProxy = CA84BAA82E274FE20084F5D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -284,7 +296,7 @@
 /* Begin XCBuildConfiguration section */
 		CA84BAAF2E274FE20084F5D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = CA84BA922E274FE10084F5D7 /* MindMate */;
+			baseConfigurationReferenceAnchor = CA84BA922E274FE10084F5D7 /* SoulSync */;
 			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -350,7 +362,7 @@
 		};
 		CA84BAB02E274FE20084F5D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = CA84BA922E274FE10084F5D7 /* MindMate */;
+			baseConfigurationReferenceAnchor = CA84BA922E274FE10084F5D7 /* SoulSync */;
 			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,7 +421,7 @@
 		};
 		CA84BAB22E274FE20084F5D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = CA84BA922E274FE10084F5D7 /* MindMate */;
+			baseConfigurationReferenceAnchor = CA84BA922E274FE10084F5D7 /* SoulSync */;
 			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -419,7 +431,8 @@
 				DEVELOPMENT_TEAM = MC45M24CVU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MindMate/Info.plist;
+				INFOPLIST_FILE = SoulSync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -441,7 +454,7 @@
 		};
 		CA84BAB32E274FE20084F5D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = CA84BA922E274FE10084F5D7 /* MindMate */;
+			baseConfigurationReferenceAnchor = CA84BA922E274FE10084F5D7 /* SoulSync */;
 			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -451,7 +464,8 @@
 				DEVELOPMENT_TEAM = MC45M24CVU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MindMate/Info.plist;
+				INFOPLIST_FILE = SoulSync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -486,7 +500,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindMate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoulSync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoulSync";
 			};
 			name = Debug;
 		};
@@ -505,7 +519,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindMate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoulSync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoulSync";
 			};
 			name = Release;
 		};
@@ -546,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA84BA8B2E274FE10084F5D7 /* Build configuration list for PBXProject "MindMate" */ = {
+		CA84BA8B2E274FE10084F5D7 /* Build configuration list for PBXProject "SoulSync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA84BAAF2E274FE20084F5D7 /* Debug */,
@@ -555,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA84BAB12E274FE20084F5D7 /* Build configuration list for PBXNativeTarget "MindMate" */ = {
+		CA84BAB12E274FE20084F5D7 /* Build configuration list for PBXNativeTarget "SoulSync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA84BAB22E274FE20084F5D7 /* Debug */,
@@ -564,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA84BAB42E274FE20084F5D7 /* Build configuration list for PBXNativeTarget "MindMateTests" */ = {
+		CA84BAB42E274FE20084F5D7 /* Build configuration list for PBXNativeTarget "SoulSyncTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA84BAB52E274FE20084F5D7 /* Debug */,
@@ -573,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA84BAB72E274FE20084F5D7 /* Build configuration list for PBXNativeTarget "MindMateUITests" */ = {
+		CA84BAB72E274FE20084F5D7 /* Build configuration list for PBXNativeTarget "SoulSyncUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA84BAB82E274FE20084F5D7 /* Debug */,

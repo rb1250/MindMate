@@ -1,6 +1,6 @@
 //
 //  GPTService.swift
-//  MindMate
+//  SoulSync
 //
 //  Created by Ruchika Bokadia on 2025-07-16.
 //
@@ -33,14 +33,15 @@ class GPTService {
     
     func fetchPrompt() async throws -> String {
         
-        let promptMessage = Message(
+        let promptMessages = [
+            Message(
             role: "system",
-            content: "You are a gentle journaling coach. Generate one deep but simple question the user can reflect on today. Keep it under 20 words."
-        )
+            content: "You are a gentle journaling coach. Generate one deep but simple question the user can reflect on today. Keep it under 20 words."),
+            Message(role: "user", content: "What’s a fresh prompt for today?")]
         
         let requestBody = RequestBody(
             model: "gpt-3.5-turbo",
-            messages: [promptMessage],
+            messages: promptMessages,
             temprature: 0.7
         )
         

@@ -1,0 +1,34 @@
+# Xcode
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# SwiftPM
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+
+# Firebase/Crashlytics
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Secrets
+Secrets.xcconfig
+
+# Misc
+*.DS_Store
+*.log
+*.env

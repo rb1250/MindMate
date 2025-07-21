@@ -1,6 +1,6 @@
 //
 //  Constants.swift
-//  MindMate
+//  SoulSync
 //
 //  Created by Ruchika Bokadia on 2025-07-16.
 //
@@ -32,9 +32,9 @@ enum Constants {
     }()
     
     static let gptURL: String = {
-        guard let apiKey = Constants.infoDictionary[Keys.gptURL] as? String else {
+        guard let url = Constants.infoDictionary[Keys.gptURL] as? String else {
             fatalError("API key not set in plist")
         }
-        return apiKey
+        return url
     }()
 }
