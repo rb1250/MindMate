@@ -1,13 +1,13 @@
 //
-//  MindMateUITestsLaunchTests.swift
-//  MindMateUITests
+//  SoulSyncUITestsLaunchTests.swift
+//  SoulSyncUITests
 //
 //  Created by Ruchika Bokadia on 2025-07-15.
 //
 
 import XCTest
 
-final class MindMateUITestsLaunchTests: XCTestCase {
+final class SoulSyncUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

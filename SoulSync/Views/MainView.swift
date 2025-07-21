@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  MindMate
+//  SoulSync
 //
 //  Created by Ruchika Bokadia on 2025-07-15.
 //
@@ -22,7 +22,7 @@ struct MainView: View {
                 VStack(spacing: 20) {
                     // 🧠 App Title
                     VStack(spacing: 4) {
-                        Text("🧠 MindMate")
+                        Text("🧠 SoulSync")
                             .font(.system(size: 34, weight: .bold, design: .rounded))
                             .foregroundColor(.white)
                         

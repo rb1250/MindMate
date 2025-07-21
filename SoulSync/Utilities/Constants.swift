@@ -1,6 +1,6 @@
 //
 //  Constants.swift
-//  MindMate
+//  SoulSync
 //
 //  Created by Ruchika Bokadia on 2025-07-16.
 //

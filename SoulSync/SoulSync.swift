@@ -1,6 +1,6 @@
 //
-//  MindMateApp.swift
-//  MindMate
+//  SoulSync.swift
+//  SoulSync
 //
 //  Created by Ruchika Bokadia on 2025-07-15.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct MindMateApp: App {
+struct SoulSync: App {
     var body: some Scene {
         WindowGroup {
             MainView()
