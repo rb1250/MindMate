@@ -32,9 +32,9 @@ enum Constants {
     }()
     
     static let gptURL: String = {
-        guard let apiKey = Constants.infoDictionary[Keys.gptURL] as? String else {
+        guard let url = Constants.infoDictionary[Keys.gptURL] as? String else {
             fatalError("API key not set in plist")
         }
-        return apiKey
+        return url
     }()
 }
