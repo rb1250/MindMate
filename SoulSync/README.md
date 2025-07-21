@@ -10,6 +10,7 @@
 - ⚙️ MVVM architecture with async/await networking
 - 🧘 Mindful, gentle prompt experience
 
+
 ---
 
 ## 📸 Preview
