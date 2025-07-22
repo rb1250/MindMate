@@ -36,7 +36,7 @@ To nurture emotional wellness with the power of AI — one journaling prompt at 
 - ✍️ Journal entry saving
 - 📊 Mood tracking
 - 🌙 Full dark mode support
-- 🛒 App Store launch
+- 🛒 App Store launch 
 
 ---
 
