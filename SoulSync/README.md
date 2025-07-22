@@ -15,7 +15,7 @@
 
 ## 📸 Preview
 
-<img src="screenshot.png" alt="SoulSync Screenshot" width="300" />
+<img src="screenshotSoulSync.png" alt="SoulSync Screenshot" width="300" />
 
 ---
 

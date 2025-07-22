@@ -46,11 +46,9 @@ fastlane/test_output
 *.xcodeproj/xcuserdata/
 
 # API keys or config secrets (if using a Config.swift)
-Secrets.swift
+*.xcconfig
 
 # Misc
 *.log
     .DS_Store
 
-# Screenshot or local assets
-screenshot.png
