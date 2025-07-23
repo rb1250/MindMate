@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CA50A1042E2F4995003CD483 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CA50A0FF2E2F4995003CD483 /* README.md */; };
-		CA50A1082E2F4995003CD483 /* screenshotSoulSync.png in Resources */ = {isa = PBXBuildFile; fileRef = CA50A1002E2F4995003CD483 /* screenshotSoulSync.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		CA50A0FF2E2F4995003CD483 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CA50A1002E2F4995003CD483 /* screenshotSoulSync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshotSoulSync.png; sourceTree = "<group>"; };
 		CA84BA902E274FE10084F5D7 /* SoulSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoulSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA84BA9D2E274FE20084F5D7 /* SoulSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoulSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA84BAA72E274FE20084F5D7 /* SoulSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoulSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				CA50A0FF2E2F4995003CD483 /* README.md */,
-				CA50A1002E2F4995003CD483 /* screenshotSoulSync.png */,
 				CA84BA922E274FE10084F5D7 /* SoulSync */,
 				CA84BAA02E274FE20084F5D7 /* SoulSyncTests */,
 				CA84BAAA2E274FE20084F5D7 /* SoulSyncUITests */,
@@ -247,7 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA50A1042E2F4995003CD483 /* README.md in Resources */,
-				CA50A1082E2F4995003CD483 /* screenshotSoulSync.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

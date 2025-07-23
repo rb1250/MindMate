@@ -1,44 +1,57 @@
-# 🧠 SoulSync – AI Journaling App
+🪷 SoulSync – A Serene AI-Powered Journaling Prompt App
+SoulSync is a calming journaling companion powered by GPT and crafted with SwiftUI. It generates peaceful daily prompts to inspire self-reflection — one mindful moment at a time.
 
-**SoulSync** is a beautiful, AI-powered journaling app built with SwiftUI. It offers a calming space for daily self-reflection through thoughtfully generated prompts from OpenAI's GPT-3.5.
+🌟 Features
+✨ Beautiful animated gradient background
 
----
+🪷 Clean SwiftUI interface with MVVM structure
 
-## ✨ Features
-- 📱 Sleek SwiftUI interface with gradient design
-- 💬 GPT-3.5 integration for personalized prompts
-- ⚙️ MVVM architecture with async/await networking
-- 🧘 Mindful, gentle prompt experience
+🧠 Thoughtful AI-generated journaling prompts
 
+🌀 Async/await-powered GPT integration (via OpenAI API)
 
----
+📱 Fully self-contained Swift project — easy to build and extend
 
-## 📸 Preview
+🔧 Tech Stack
+Swift & SwiftUI
 
-<img src="screenshotSoulSync.png" alt="SoulSync Screenshot" width="300" />
+MVVM Architecture
 
----
+GPT-3.5 via OpenAI API
 
-## 🔧 Tech Stack
-- Swift & SwiftUI
-- OpenAI API (GPT-3.5)
-- MVVM Architecture
-- Async/Await & URLSession
+Async/Await networking
 
----
+🛠 Setup & API Key
+Clone the repository
 
-## 📌 Purpose
-To nurture emotional wellness with the power of AI — one journaling prompt at a time.
+Create a Secrets.xcconfig file in the root directory:
 
----
+swift
+Copy
+Edit
+OPENAI_API_KEY = your_key_here
+OPENAI_API_URL = https://api.openai.com/v1/chat/completions
+Make sure .xcconfig is linked in Build Settings > Configurations
 
-## 🚀 Coming Soon
-- ✍️ Journal entry saving
-- 📊 Mood tracking
-- 🌙 Full dark mode support
-- 🛒 App Store launch 
+Run the app on Simulator or device
 
----
+⚠️ Your API key is required and not included in the repo for security.
 
-Built with calm, curiosity, and code 💖  
-Made by [Ruchika Bokadia](https://www.linkedin.com/in/ruchikabokadia/)
+🚧 Upcoming Features
+📝 Save and view journaling history
+
+📊 Mood + focus tracker
+
+🌙 Custom dark/light mode options
+
+🧘🏽‍♀️ Daily reminder integration
+
+📸 Preview
+
+![SoulSync UI](Assets/screenshot.png)
+
+💡 Why SoulSync?
+Sometimes all it takes is one good question to unlock clarity.
+SoulSync offers that — in a minimal, peaceful, and beautifully coded experience.
+
+🧘🏽‍♀️ Built with serenity by Ruchika Bokadia

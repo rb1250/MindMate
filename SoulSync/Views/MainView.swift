@@ -9,20 +9,25 @@ import SwiftUI
 
 struct MainView: View {
     @StateObject private var viewModel = PromptViewModel()
-    
+    @State private var animateGradient = false
+        
     var body: some View {
         NavigationStack {
             ZStack {
-                // ✨ Background Gradient
-                LinearGradient(gradient: Gradient(colors: [Color(.systemPurple), Color(.systemTeal)]),
-                               startPoint: .topLeading,
-                               endPoint: .bottomTrailing)
+                // Animated Gradient Background
+                LinearGradient(
+                    gradient: Gradient(colors: animateGradient ? [.mint, .indigo] : [.purple, .teal]),
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
                 .ignoresSafeArea()
+                .animation(.easeInOut(duration: 5).repeatForever(autoreverses: true), value: animateGradient)
+                .onAppear { animateGradient.toggle() }
                 
                 VStack(spacing: 20) {
-                    // 🧠 App Title
+                    // App Title
                     VStack(spacing: 4) {
-                        Text("🧠 SoulSync")
+                        Text("🪷 SoulSync")
                             .font(.system(size: 34, weight: .bold, design: .rounded))
                             .foregroundColor(.white)
                         
@@ -32,7 +37,7 @@ struct MainView: View {
                     }
                     .padding(.top, 50)
                     
-                    // 💬 Prompt Display
+                    // Prompt Display
                     Spacer()
                     Group {
                         if viewModel.isLoading {
@@ -70,7 +75,7 @@ struct MainView: View {
                         }
                     }
                     
-                    // ✨ Generate Button
+                    // Generate Button
                     Button(action: {
                         Task {
                             await viewModel.getPrompt()
@@ -90,7 +95,7 @@ struct MainView: View {
                         .padding(.horizontal)
                     }
                     
-                    // ❤️ Footer
+                    // Footer
                     Spacer()
                     Text("Built with calm, curiosity, and code 💖")
                         .font(.footnote)
