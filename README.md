@@ -56,7 +56,9 @@ Copy and add it to Secrets.xcconfig as shown above.
 
 🖼 Preview
 <img src="Screenshot/screenshot.png" alt="SoulSync UI" width="300"/>
+
 🔮 Coming Soon
+
 📝 Save journaling history
 
 🌙 Dark mode toggle
@@ -80,8 +82,10 @@ This project is open source and contributions are welcome!
 
 ⭐ If you like SoulSync, give it a star!
 
-📜 License
+## 📜 License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Licensed under the MIT License. See LICENSE for details.
+Licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
+
 
 <p align="center"> Built with calm, curiosity, and code 💖 by <a href="https://www.linkedin.com/in/ruchikabokadia/">Ruchika Bokadia</a><br> 📽️ YouTube: <a href="https://www.youtube.com/@thp-programmer">@thp-programmer</a> </p> ```
