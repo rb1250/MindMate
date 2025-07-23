@@ -27,10 +27,15 @@ Clone the repository
 Create a Secrets.xcconfig file in the root directory:
 
 swift
+
 Copy
+
 Edit
+
 OPENAI_API_KEY = your_key_here
+
 OPENAI_API_URL = https://api.openai.com/v1/chat/completions
+
 Make sure .xcconfig is linked in Build Settings > Configurations
 
 Run the app on Simulator or device
