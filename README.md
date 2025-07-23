@@ -24,12 +24,13 @@ A Serene AI-Powered Journaling App built with SwiftUI + GPT
 ---
 
 ## 📦 Getting Started
+
 1. **Clone this repo**
    ```bash
    git clone https://github.com/yourusername/SoulSync.git
-Create a Secrets.xcconfig file in the root directory:
+Create Secrets.xcconfig file in the root directory
 
-text
+ini
 Copy
 Edit
 OPENAI_API_KEY = your_api_key
@@ -38,14 +39,23 @@ Link .xcconfig in Xcode
 
 Go to Build Settings → Configurations
 
+Set Secrets.xcconfig for Debug & Release
+
 Run on Xcode (15+)
 
 ⚠️ API key is required and is not included for security reasons.
 
+🔑 Get Your OpenAI API Key
+Go to OpenAI API Keys
+
+Sign in (or create an account)
+
+Click Create new secret key
+
+Copy and add it to Secrets.xcconfig as shown above.
+
 🖼 Preview
-
 <img src="Screenshot/screenshot.png" alt="SoulSync UI" width="300"/>
-
 🔮 Coming Soon
 📝 Save journaling history
 
@@ -62,15 +72,16 @@ SoulSync provides that — in a minimal, mindful, and beautifully coded experien
 🤝 Contribute
 This project is open source and contributions are welcome!
 
-Fork this repo
+🍴 Fork this repo
 
-Create your branch
+🌱 Create your branch
 
-Submit a PR
+🔍 Submit a PR
 
 ⭐ If you like SoulSync, give it a star!
 
 📜 License
+
 Licensed under the MIT License. See LICENSE for details.
 
-<p align="center"> Built with calm, curiosity, and code 💖 by <a href="https://www.linkedin.com/in/ruchikabokadia/">Ruchika Bokadia</a> <br> 📽️ YouTube: <a href="https://www.youtube.com/@thp-programmer">@thp-programmer</a> </p> ```
+<p align="center"> Built with calm, curiosity, and code 💖 by <a href="https://www.linkedin.com/in/ruchikabokadia/">Ruchika Bokadia</a><br> 📽️ YouTube: <a href="https://www.youtube.com/@thp-programmer">@thp-programmer</a> </p> ```
