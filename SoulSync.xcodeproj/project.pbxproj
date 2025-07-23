@@ -56,6 +56,11 @@
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		CA50A11D2E30AD67003CD483 /* Screenshot */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		CA84BA922E274FE10084F5D7 /* SoulSync */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				CA50A0FF2E2F4995003CD483 /* README.md */,
+				CA50A11D2E30AD67003CD483 /* Screenshot */,
 				CA84BA922E274FE10084F5D7 /* SoulSync */,
 				CA84BAA02E274FE20084F5D7 /* SoulSyncTests */,
 				CA84BAAA2E274FE20084F5D7 /* SoulSyncUITests */,
@@ -139,6 +145,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				CA50A11D2E30AD67003CD483 /* Screenshot */,
 				CA84BA922E274FE10084F5D7 /* SoulSync */,
 			);
 			name = SoulSync;

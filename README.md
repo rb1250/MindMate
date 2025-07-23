@@ -48,7 +48,7 @@ Run the app on Simulator or device
 
 📸 Preview
 
-![SoulSync UI](Assets/screenshot.png)
+![SoulSync UI](Screenshot/screenshot.png)
 
 💡 Why SoulSync?
 Sometimes all it takes is one good question to unlock clarity.
