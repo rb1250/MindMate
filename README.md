@@ -1,62 +1,76 @@
-🪷 SoulSync – A Serene AI-Powered Journaling Prompt App
-SoulSync is a calming journaling companion powered by GPT and crafted with SwiftUI. It generates peaceful daily prompts to inspire self-reflection — one mindful moment at a time.
+<h1 align="center">🪷 SoulSync</h1>
+<p align="center">
+A Serene AI-Powered Journaling App built with SwiftUI + GPT
+</p>
 
-🌟 Features
-✨ Beautiful animated gradient background
+---
 
-🪷 Clean SwiftUI interface with MVVM structure
+## ✨ Features
+- 🌈 **Animated gradient background** for a calming UI
+- 🤖 **AI-powered journaling prompts** via GPT-3.5
+- 🧩 **Clean SwiftUI + MVVM architecture**
+- ⚡ **Async/Await networking** for smooth API calls
+- 🔐 **Secure `.xcconfig` setup** for API keys
 
-🧠 Thoughtful AI-generated journaling prompts
+---
 
-🌀 Async/await-powered GPT integration (via OpenAI API)
+## 🛠 Tech Stack
+- **Swift & SwiftUI**
+- **OpenAI GPT-3.5 API**
+- **MVVM Architecture**
+- **Async/Await**
+- **Secure key handling with `.xcconfig`**
 
-📱 Fully self-contained Swift project — easy to build and extend
+---
 
-🔧 Tech Stack
-Swift & SwiftUI
-
-MVVM Architecture
-
-GPT-3.5 via OpenAI API
-
-Async/Await networking
-
-🛠 Setup & API Key
-Clone the repository
-
+## 📦 Getting Started
+1. **Clone this repo**
+   ```bash
+   git clone https://github.com/yourusername/SoulSync.git
 Create a Secrets.xcconfig file in the root directory:
 
-swift
-
+text
 Copy
-
 Edit
-
-OPENAI_API_KEY = your_key_here
-
+OPENAI_API_KEY = your_api_key
 OPENAI_API_URL = https://api.openai.com/v1/chat/completions
+Link .xcconfig in Xcode
 
-Make sure .xcconfig is linked in Build Settings > Configurations
+Go to Build Settings → Configurations
 
-Run the app on Simulator or device
+Run on Xcode (15+)
 
-⚠️ Your API key is required and not included in the repo for security.
+⚠️ API key is required and is not included for security reasons.
 
-🚧 Upcoming Features
-📝 Save and view journaling history
-
-📊 Mood + focus tracker
-
-🌙 Custom dark/light mode options
-
-🧘🏽‍♀️ Daily reminder integration
-
-📸 Preview
+🖼 Preview
 
 <img src="Screenshot/screenshot.png" alt="SoulSync UI" width="300"/>
 
-💡 Why SoulSync?
-Sometimes all it takes is one good question to unlock clarity.
-SoulSync offers that — in a minimal, peaceful, and beautifully coded experience.
+🔮 Coming Soon
+📝 Save journaling history
 
-🧘🏽‍♀️ Built with serenity by [Ruchika Bokadia](https://www.linkedin.com/in/ruchikabokadia/)
+🌙 Dark mode toggle
+
+🔔 Daily reminders
+
+☁️ iCloud sync
+
+💡 Why SoulSync?
+Sometimes, all it takes is one good question to unlock clarity.
+SoulSync provides that — in a minimal, mindful, and beautifully coded experience.
+
+🤝 Contribute
+This project is open source and contributions are welcome!
+
+Fork this repo
+
+Create your branch
+
+Submit a PR
+
+⭐ If you like SoulSync, give it a star!
+
+📜 License
+Licensed under the MIT License. See LICENSE for details.
+
+<p align="center"> Built with calm, curiosity, and code 💖 by <a href="https://www.linkedin.com/in/ruchikabokadia/">Ruchika Bokadia</a> <br> 📽️ YouTube: <a href="https://www.youtube.com/@thp-programmer">@thp-programmer</a> </p> ```
