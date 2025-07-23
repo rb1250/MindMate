@@ -28,13 +28,18 @@ A Serene AI-Powered Journaling App built with SwiftUI + GPT
 1. **Clone this repo**
    ```bash
    git clone https://github.com/yourusername/SoulSync.git
+   
 Create Secrets.xcconfig file in the root directory
 
 ini
+
 Copy
+
 Edit
+
 OPENAI_API_KEY = your_api_key
 OPENAI_API_URL = https://api.openai.com/v1/chat/completions
+
 Link .xcconfig in Xcode
 
 Go to Build Settings → Configurations
@@ -43,9 +48,11 @@ Set Secrets.xcconfig for Debug & Release
 
 Run on Xcode (15+)
 
+
 ⚠️ API key is required and is not included for security reasons.
 
 🔑 Get Your OpenAI API Key
+
 Go to OpenAI API Keys
 
 Sign in (or create an account)
@@ -55,6 +62,7 @@ Click Create new secret key
 Copy and add it to Secrets.xcconfig as shown above.
 
 🖼 Preview
+
 <img src="Screenshot/screenshot.png" alt="SoulSync UI" width="300"/>
 
 🔮 Coming Soon
