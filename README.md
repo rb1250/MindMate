@@ -54,4 +54,4 @@ Run the app on Simulator or device
 Sometimes all it takes is one good question to unlock clarity.
 SoulSync offers that — in a minimal, peaceful, and beautifully coded experience.
 
-🧘🏽‍♀️ Built with serenity by Ruchika Bokadia
+🧘🏽‍♀️ Built with serenity by [Ruchika Bokadia](https://www.linkedin.com/in/ruchikabokadia/)
