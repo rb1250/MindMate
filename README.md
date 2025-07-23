@@ -48,7 +48,7 @@ Run the app on Simulator or device
 
 📸 Preview
 
-![SoulSync UI](Screenshot/screenshot.png)
+<img src="SoulSync/Screenshot/screenshot.png" alt="SoulSync UI" width="300"/>
 
 💡 Why SoulSync?
 Sometimes all it takes is one good question to unlock clarity.
