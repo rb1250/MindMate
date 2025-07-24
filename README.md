@@ -1,57 +1,61 @@
-<h1 align="center">🪷 SoulSync</h1>
+<h1 align="center">🪷 SoulSync – AI Journaling App Template</h1>
 <p align="center">
-A Serene AI-Powered Journaling App built with SwiftUI + GPT
+A serene, AI-powered journaling app template built with <strong>SwiftUI + GPT-3.5</strong>.  
+Perfect for iOS developers who want to create mindful apps with modern design and AI integration.
 </p>
 
 ---
 
-## ✨ Features
-- 🌈 **Animated gradient background** for a calming UI
-- 🤖 **AI-powered journaling prompts** via GPT-3.5
-- 🧩 **Clean SwiftUI + MVVM architecture**
-- ⚡ **Async/Await networking** for smooth API calls
-- 🔐 **Secure `.xcconfig` setup** for API keys
+## ✨ Why SoulSync?
+- 🌈 **Beautiful Animated Gradient UI** – Calm, minimal design for mental wellness apps.
+- 🤖 **AI Integration Ready** – GPT-3.5-powered journaling prompts out of the box.
+- 🧩 **Clean MVVM Architecture** – Scalable, production-friendly structure.
+- 🚀 **Async/Await Networking** – Smooth API calls with Swift Concurrency.
+- 🔐 **Secure API Key Handling** – Using `.xcconfig` for safety.
+- 🎨 **Custom Branding** – Includes App Icon & Launch Screen.
+
+---
+
+## 📦 What's Inside?
+✔ Full Xcode Project (SwiftUI + MVVM)  
+✔ GPT-3.5 integration with OpenAI API  
+✔ Secure API key setup instructions  
+✔ MIT License (Commercial use allowed)  
+✔ Detailed Setup Guide  
 
 ---
 
 ## 🛠 Tech Stack
 - **Swift & SwiftUI**
-- **OpenAI GPT-3.5 API**
+- **GPT-3.5 API (OpenAI)**
 - **MVVM Architecture**
 - **Async/Await**
-- **Secure key handling with `.xcconfig`**
+- **Assets.xcassets with App Icon**
 
 ---
 
-## 📦 Getting Started
-
-1. **Clone this repo**
+## 🔑 Quick Setup Guide
+1. **Clone this repository**
    ```bash
    git clone https://github.com/yourusername/SoulSync.git
-   
-Create Secrets.xcconfig file in the root directory
+Create Secrets.xcconfig in the project root
 
 ini
-
 Copy
-
 Edit
-
-OPENAI_API_KEY = your_api_key
+OPENAI_API_KEY = your_api_key_here
 OPENAI_API_URL = https://api.openai.com/v1/chat/completions
+Link Secrets.xcconfig in Xcode
 
-Link .xcconfig in Xcode
+Open your project in Xcode
 
 Go to Build Settings → Configurations
 
 Set Secrets.xcconfig for Debug & Release
 
-Run on Xcode (15+)
+Run on Xcode 15+
 
-
-⚠️ API key is required and is not included for security reasons.
-
-🔑 Get Your OpenAI API Key
+🔑 How to Get Your OpenAI API Key
 
 Go to OpenAI API Keys
 
@@ -59,41 +63,40 @@ Sign in (or create an account)
 
 Click Create new secret key
 
-Copy and add it to Secrets.xcconfig as shown above.
+Copy the generated API key
+
+Add it to your Secrets.xcconfig file:
+
+ini
+Copy
+Edit
+OPENAI_API_KEY = your_api_key_here
 
 🖼 Preview
 
 <img src="Screenshot/screenshot.png" alt="SoulSync UI" width="300"/>
 
-🔮 Coming Soon
+🔮 Coming Soon (Pro Version)
 
 📝 Save journaling history
 
-🌙 Dark mode toggle
+🌙 Dark mode
 
 🔔 Daily reminders
 
-☁️ iCloud sync
+☁ iCloud sync
+
+💳 In-app subscriptions
 
 💡 Why SoulSync?
-Sometimes, all it takes is one good question to unlock clarity.
-SoulSync provides that — in a minimal, mindful, and beautifully coded experience.
+Sometimes, one thoughtful question can unlock clarity.
+SoulSync delivers that with a minimal, mindful, and AI-powered experience.
 
-🤝 Contribute
-This project is open source and contributions are welcome!
+⭐ Love SoulSync?
+Give it a star on GitHub and share your feedback!
 
-🍴 Fork this repo
+📜 License
 
-🌱 Create your branch
-
-🔍 Submit a PR
-
-⭐ If you like SoulSync, give it a star!
-
-## 📜 License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-Licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the MIT License. See LICENSE for details.
 
 <p align="center"> Built with calm, curiosity, and code 💖 by <a href="https://www.linkedin.com/in/ruchikabokadia/">Ruchika Bokadia</a><br> 📽️ YouTube: <a href="https://www.youtube.com/@thp-programmer">@thp-programmer</a> </p> ```
