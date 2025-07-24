@@ -97,6 +97,6 @@ Give it a star on GitHub and share your feedback!
 
 📜 License
 
-This project is licensed under the MIT License. See LICENSE for details.
+This project is licensed under the [MIT License](LICENSE). See [LICENSE](LICENSE) for details.
 
 <p align="center"> Built with calm, curiosity, and code 💖 by <a href="https://www.linkedin.com/in/ruchikabokadia/">Ruchika Bokadia</a><br> 📽️ YouTube: <a href="https://www.youtube.com/@thp-programmer">@thp-programmer</a> </p> ```
