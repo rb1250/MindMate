@@ -38,16 +38,22 @@ Perfect for iOS developers who want to create mindful apps with modern design an
 1. **Clone this repository**
    ```bash
    git clone https://github.com/yourusername/SoulSync.git
+   
 Create Secrets.xcconfig in the project root
 
-ini
-Copy
-Edit
-OPENAI_API_KEY = your_api_key_here
-OPENAI_API_URL = https://api.openai.com/v1/chat/completions
-Link Secrets.xcconfig in Xcode
+ ini
 
-Open your project in Xcode
+ Copy
+
+ Edit
+
+ OPENAI_API_KEY = your_api_key_here
+ 
+ OPENAI_API_URL = https://api.openai.com/v1/chat/completions
+ 
+ Link Secrets.xcconfig in Xcode
+
+ Open your project in Xcode
 
 Go to Build Settings → Configurations
 
@@ -68,8 +74,11 @@ Copy the generated API key
 Add it to your Secrets.xcconfig file:
 
 ini
+
 Copy
+
 Edit
+
 OPENAI_API_KEY = your_api_key_here
 
 🖼 Preview
